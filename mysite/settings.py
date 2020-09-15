@@ -122,3 +122,7 @@ STATICFILES_DIR = [
     os.path.join(BASE_DIR, 'static'),
 ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+
+# Login setting
+LOGIN_REDIRECT_URL = '/'
